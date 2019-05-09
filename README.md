@@ -73,17 +73,19 @@ Baba is You의 editor로 무엇이든 만들어내는 걸 보면서, 2048을 만
 
 - phase 5(문장 13-15): 랜덤 생성 phase.(1.0과 동일)
 
-## Version 1.0
+## Version Release
+
+### Version 1.0
 ![2048 is you Version 1.0](/ver-1.0.png)
 - `HEDGE`의 방향이 중요합니다. phase 4의 내용을 잘 읽어보시기 바랍니다. 나머지 오브젝트의 방향은 상관없습니다.
 - 겹쳐진 부분은 (`HAND`, `FUNGUS`), (`STOP`, `DOWN`)입니다.
 
-## Version 1.1
+### Version 1.1
 ![2048 is you Version 1.1](/ver-1.1.png)
 - 버그 수정: `FUNGUS`에서 만들어진 `BABA`가 `BELT`를 탈출하여 맵을 자유롭게 돌아다닐 수 있었던 부분을 수정
   - 개발자인 제가 정석대로 맵을 **클리어**하는 데 3시간이 걸렸지만, 이 버그를 이용하면 **5분(!)** 안에 깰 수 있습니다.
 
-## Version 2.0
+### Version 2.0
 ![2048 is you Version 2.0 - page 1](/ver-2.0-1.png)
 ![2048 is you Version 2.0 - page 2](/ver-2.0-2.png)
 ![2048 is you Version 2.0 - page 3](/ver-2.0-3.png)
@@ -93,3 +95,6 @@ Baba is You의 editor로 무엇이든 만들어내는 걸 보면서, 2048을 만
 - 겹쳐진 오브젝트가 너무 많아서, 3개의 층을 따로 표시하기로 하였습니다.
 - 1층의 `IS`와 `TILE`이 겹쳐진 부분은 둘 다 아래를 향하도록 해 주세요.
 - 2층의 `TILE`들(잘 관찰해보세요!)은 모두 아래를 향해야 합니다.
+
+## 버그 제보
+혹시라도 버그를 찾으셨다면, 이 repo의 issue로 남겨주세요! 고칠 수 있다면... 수정하겠습니다!
